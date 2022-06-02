@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import heroImage from '/public/assets/security-two.png'
+import heroImage from '/public/assets/security-two.jpg'
 import Spacer from '../../components/primitives/Spacer'
 
 export const EscortsSection = (): JSX.Element => {

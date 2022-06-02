@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import heroImage from '/public/assets/securicy-one.png'
+import heroImage from '/public/assets/securicy-one.jpg'
 import Spacer from '../../components/primitives/Spacer'
 
 export const ArmedResponseSection = (): JSX.Element => {

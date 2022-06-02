@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import heroImage from '/public/assets/road-side.png'
+import heroImage from '/public/assets/road-side.jpg'
 import Spacer from '../../components/primitives/Spacer'
 import { LearnMoreButton } from '../../components/primitives/LearnMoreButton'
 

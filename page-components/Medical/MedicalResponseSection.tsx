@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import heroImage from '/public/assets/medical-one.png'
+import heroImage from '/public/assets/medical-one.jpg'
 import Spacer from '../../components/primitives/Spacer'
 
 export const MedicalResponseSection = (): JSX.Element => {

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import heroImage from '/public/assets/road-hero.png'
+import heroImage from '/public/assets/road-hero.jpg'
 import Spacer from '../../components/primitives/Spacer'
 import { AppStoreButtonLight, PlayStoreButtonLight } from '../../components/primitives/StoreButtons'
 

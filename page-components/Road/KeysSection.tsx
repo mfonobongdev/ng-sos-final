@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import heroImage from '/public/assets/road-four.png'
+import heroImage from '/public/assets/road-four.jpg'
 import Spacer from '../../components/primitives/Spacer'
 
 export const KeysSection = (): JSX.Element => {

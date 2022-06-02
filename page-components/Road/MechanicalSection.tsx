@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import heroImage from '/public/assets/road-two.png'
+import heroImage from '/public/assets/road-two.jpg'
 import Spacer from '../../components/primitives/Spacer'
 
 export const MechanicalSection = (): JSX.Element => {

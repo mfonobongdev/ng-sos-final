@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import heroImage from '/public/assets/road-five.png'
+import heroImage from '/public/assets/road-five.jpg'
 import Spacer from '../../components/primitives/Spacer'
 
 export const JumpSection = (): JSX.Element => {
