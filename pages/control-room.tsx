@@ -5,10 +5,10 @@ import FooterComponent from '../page-components/Footer'
 import { HeaderSection } from '../page-components/Control/HeaderSection'
 import { ServicesOffered } from '../page-components/Control/ServicesOffered'
 import { CenterCapabilities } from '../page-components/Control/CenterCapabilities'
-const Control: NextPage = () => {
+const ControlRoom: NextPage = () => {
   return (
     <section>
-      <MetaHelper title={'Control Room'} />
+      <MetaHelper title={'ControlRoom Room'} />
 
       <HeaderSection />
       <ServicesOffered />
@@ -19,4 +19,4 @@ const Control: NextPage = () => {
   )
 }
 
-export default Control
+export default ControlRoom

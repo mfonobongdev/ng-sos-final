@@ -8,10 +8,10 @@ import { MechanicalSection } from '../page-components/Road/MechanicalSection'
 import { TyreSection } from '../page-components/Road/TyreSection'
 import { KeysSection } from '../page-components/Road/KeysSection'
 import { JumpSection } from '../page-components/Road/JumpSection'
-const Road: NextPage = () => {
+const RoadSideAssistance: NextPage = () => {
   return (
     <section>
-      <MetaHelper title={'Road-side Assistance'} />
+      <MetaHelper title={'RoadSideAssistance-side Assistance'} />
 
       <HeaderSection />
       <FuelSection />
@@ -25,4 +25,4 @@ const Road: NextPage = () => {
   )
 }
 
-export default Road
+export default RoadSideAssistance

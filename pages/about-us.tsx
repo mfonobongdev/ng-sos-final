@@ -6,10 +6,10 @@ import { ValuesSection } from '../page-components/About/ValuesSection'
 import { MissionSection } from '../page-components/About/MissionSection'
 import { DownloadSection } from '../page-components/Home/DownloadSection'
 import FooterComponent from '../page-components/Footer'
-const About: NextPage = () => {
+const AboutUs: NextPage = () => {
   return (
     <section className='mt-20'>
-      <MetaHelper title={'About'} />
+      <MetaHelper title={'AboutUs'} />
 
       <HeaderSection />
       <VisionSection />
@@ -21,4 +21,4 @@ const About: NextPage = () => {
   )
 }
 
-export default About
+export default AboutUs

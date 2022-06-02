@@ -7,10 +7,10 @@ import { MedicalResponseSection } from '../page-components/Medical/MedicalRespon
 import { MedicalTransportationSection } from '../page-components/Medical/MedicalTransportationSection'
 import { MedicalAdviceSection } from '../page-components/Medical/MedicalAdviceSection'
 import { AmbulanceServiceSection } from '../page-components/Medical/AmbulanceServiceSection'
-const Medical: NextPage = () => {
+const MedicalServices: NextPage = () => {
   return (
     <section>
-      <MetaHelper title={'Medical Services'} />
+      <MetaHelper title={'MedicalServices Services'} />
 
       <HeaderSection />
       <MedicalResponseSection />
@@ -23,4 +23,4 @@ const Medical: NextPage = () => {
   )
 }
 
-export default Medical
+export default MedicalServices

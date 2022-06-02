@@ -18,7 +18,7 @@ export const Navigation = (): JSX.Element => {
             </div>
           </Link>
 
-          <Link className='cursor-pointer' href={'/about'}>
+          <Link className='cursor-pointer' href={'/about-us'}>
             <div className='cursor-pointer'>
               <h3 className='font-Poppins font-normal text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>About Us</h3>
             </div>
@@ -30,13 +30,13 @@ export const Navigation = (): JSX.Element => {
             </div>
           </Link>
 
-          <Link className='cursor-pointer' href={'/medical'}>
+          <Link className='cursor-pointer' href={'/medical-services'}>
             <div className='cursor-pointer'>
               <h3 className='font-Poppins font-normal text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>Medical</h3>
             </div>
           </Link>
 
-          <Link className='cursor-pointer' href={'/road'}>
+          <Link className='cursor-pointer' href={'/road-side-assistance'}>
             <div className='cursor-pointer'>
               <h3 className='font-Poppins font-normal text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>
                 Road-Side Assistance
@@ -44,7 +44,7 @@ export const Navigation = (): JSX.Element => {
             </div>
           </Link>
 
-          <Link className='cursor-pointer' href={'/control'}>
+          <Link className='cursor-pointer' href={'/control-room'}>
             <div className='cursor-pointer'>
               <h3 className='font-Poppins font-normal text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>
                 Control Room

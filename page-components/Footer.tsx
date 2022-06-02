@@ -35,33 +35,21 @@ export default function FooterComponent() {
             </div>
           </Link>
 
-          <Link className='cursor-pointer' href={'/about'}>
+          <Link className='cursor-pointer' href={'/about-us'}>
             <div className='cursor-pointer'>
               <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>About Us</h3>
             </div>
           </Link>
 
-          <Link className='cursor-pointer' href={'/security'}>
+          <Link className='cursor-pointer' href={'/faq'}>
             <div className='cursor-pointer'>
-              <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>Security</h3>
+              <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>FAQ&apos;s</h3>
             </div>
           </Link>
 
-          <Link className='cursor-pointer' href={'/medical'}>
+          <Link className='cursor-pointer' href={'/contact-us'}>
             <div className='cursor-pointer'>
-              <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>Medical Assistance</h3>
-            </div>
-          </Link>
-
-          <Link className='cursor-pointer' href={'/road'}>
-            <div className='cursor-pointer'>
-              <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>Road-Side Assistance</h3>
-            </div>
-          </Link>
-
-          <Link className='cursor-pointer' href={'/control'}>
-            <div className='cursor-pointer'>
-              <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>Control Room</h3>
+              <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>Contact Us</h3>
             </div>
           </Link>
         </div>
@@ -70,27 +58,27 @@ export default function FooterComponent() {
         <div className='flex flex-col space-y-4 '>
           <div className='font-bold'>Service</div>
 
-          <Link className='cursor-pointer' href={'/'}>
-            <div className='cursor-pointer'>
-              <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>Managed IT</h3>
-            </div>
-          </Link>
-
           <Link className='cursor-pointer' href={'/security'}>
             <div className='cursor-pointer'>
               <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>Security</h3>
             </div>
           </Link>
 
-          <Link className='cursor-pointer' href={'/medical'}>
+          <Link className='cursor-pointer' href={'/medical-services'}>
             <div className='cursor-pointer'>
-              <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>IT Support</h3>
+              <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>Medical Assistance</h3>
             </div>
           </Link>
 
-          <Link className='cursor-pointer' href={'/road'}>
+          <Link className='cursor-pointer' href={'/road-side-assistance'}>
             <div className='cursor-pointer'>
-              <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>FAQ&apos;s</h3>
+              <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>Road-Side Assistance</h3>
+            </div>
+          </Link>
+
+          <Link className='cursor-pointer' href={'/control-room'}>
+            <div className='cursor-pointer'>
+              <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>Control Room</h3>
             </div>
           </Link>
         </div>
