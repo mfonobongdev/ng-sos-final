@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import heroImage from '/public/assets/mobile-left.png'
+import heroImage from '/public/assets/security.jpg'
 import Spacer from '../../components/primitives/Spacer'
 import { LearnMoreButton } from '../../components/primitives/LearnMoreButton'
 
@@ -8,8 +8,9 @@ export const SecuritySection = (): JSX.Element => {
     <div className='bg-white'>
       <section className='container mx-auto py-6 lg:py-10'>
         <div className='grid grid-rows-[max-content_1fr] grid-cols-1 md:grid-rows-1 md:grid-cols-[2fr_1fr] gap-10 md:gap-3'>
-          <div className='hidden md:block relative w-full h-[600px] md:h-[680px] rounded-sm order-first md:order-last mx-12 md:mx-0'>
-            <Image src={heroImage} alt={'hero'} layout={'fill'} className={'object-contain object-left md:object-center rounded-sm z-0'} />
+          <div className='hidden md:block relative w-full h-[480px] lg:h-[500px] rounded-md order-first md:order-last mx-12 md:mx-0'>
+            <div className={'absolute h-full w-full bg-sosRed/40 z-10 rounded-md'} />
+            <Image src={heroImage} alt={'hero'} layout={'fill'} className={'object-cover object-left md:object-center rounded-md z-0'} />
           </div>
           <div className='md:place-self-center px-12'>
             <div className=''>
@@ -30,7 +31,16 @@ export const SecuritySection = (): JSX.Element => {
               <h1 className='font-Poppins font-semibold text-3xl text-primary leading-normal max-w-[20ch]'>Security.</h1>
               <Spacer />
               <h3 className='font-Poppins font-normal text-base lg:text-base text-secondary leading-normal max-w-[60ch]'>
-                NG-SOS provides a “safety-net” for users by providing services with fast acting private security-providers.
+                The concentration of serious crime in Nigeria remains high in densely populated cities, focused more intensely in urban, and
+                suburban areas. Although Public Services, in the form of the Nigerian Police Service, and Public Healthcare Emergency
+                Response exists, resources are limited. “High Spike” times of the day and week (for example, Friday nights) result in
+                overburdened public services that are often overwhelmed, slowing response-time.
+              </h3>
+              <Spacer />
+              <h3 className='font-Poppins font-normal text-base lg:text-base text-secondary leading-normal max-w-[60ch]'>
+                NG-SOS provides a “safety-net” for users by providing services with fast acting private security-providers. Although private
+                home-security has become a standard feature for many middle-class Nigerian families, NG-SOS seeks to expand that level of
+                security to external, public environments, integrated on a National basis
               </h3>
               <Spacer medium />
               <div className='flex justify-start space-x-3'>

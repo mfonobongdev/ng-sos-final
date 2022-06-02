@@ -54,23 +54,27 @@ export const Navigation = (): JSX.Element => {
         </div>
 
         {/*  download*/}
-        <div className='flex justify-start space-x-3'>
+        <div className='flex justify-start items-center space-x-3'>
+          <h3 className='font-Poppins font-normal text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch] hidden xl:block'>
+            Download
+          </h3>
           <Link className='cursor-pointer' href={'/'}>
             <div
               className={
                 'group cursor-pointer border hover:opacity-80 rounded-md py-2 px-5 flex space-x-3 items-center border-transparent bg-red-600 text-white'
               }>
-              <div className={'flex flex-col text-sm text-white'}>
-                <span>
-                  <strong>Download</strong>
-                </span>
-              </div>
-              <svg className={'w-4 h-4 fill-white'} viewBox='0 0 15 15' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                <path
-                  d='M7.50005 1.04999C7.74858 1.04999 7.95005 1.25146 7.95005 1.49999V8.41359L10.1819 6.18179C10.3576 6.00605 10.6425 6.00605 10.8182 6.18179C10.994 6.35753 10.994 6.64245 10.8182 6.81819L7.81825 9.81819C7.64251 9.99392 7.35759 9.99392 7.18185 9.81819L4.18185 6.81819C4.00611 6.64245 4.00611 6.35753 4.18185 6.18179C4.35759 6.00605 4.64251 6.00605 4.81825 6.18179L7.05005 8.41359V1.49999C7.05005 1.25146 7.25152 1.04999 7.50005 1.04999ZM2.5 10C2.77614 10 3 10.2239 3 10.5V12C3 12.5539 3.44565 13 3.99635 13H11.0012C11.5529 13 12 12.5528 12 12V10.5C12 10.2239 12.2239 10 12.5 10C12.7761 10 13 10.2239 13 10.5V12C13 13.1041 12.1062 14 11.0012 14H3.99635C2.89019 14 2 13.103 2 12V10.5C2 10.2239 2.22386 10 2.5 10Z'
-                  fill='currentColor'
-                  fillRule='evenodd'
-                  clipRule='evenodd'></path>
+              <svg className={'w-5 h-5 fill-white'} xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'>
+                <path d='M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z' />
+              </svg>
+            </div>
+          </Link>
+          <Link className='cursor-pointer' href={'/'}>
+            <div
+              className={
+                'group cursor-pointer border hover:opacity-80 rounded-md py-2 px-5 flex space-x-3 items-center border-transparent bg-red-600 text-white'
+              }>
+              <svg className={'w-5 h-5 fill-white'} xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+                <path d='M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z' />
               </svg>
             </div>
           </Link>

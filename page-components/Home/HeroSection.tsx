@@ -6,7 +6,7 @@ import { AppStoreButton, PlayStoreButton } from '../../components/primitives/Sto
 
 export const HeroSection = (): JSX.Element => {
   return (
-    <div className='bg-dullOrange'>
+    <div className='bg-gradient-to-r from-red-50 via-red-100 to-red-50'>
       <section className='container mt-10 mx-auto py-16 md:py-24'>
         <div className='grid grid-rows-[max-content_1fr] grid-cols-1 md:grid-rows-1 md:grid-cols-[1fr_2fr] gap-10 md:gap-3'>
           <div className='hidden md:block relative w-full h-[600px] md:h-[680px] rounded-sm order-last md:order-first'>
