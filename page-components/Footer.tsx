@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function FooterComponent() {
   return (
-    <section className={'container mx-auto py-6 md:py-24 px-5 xl:px-20'}>
+    <section className={'container mx-auto pt-6 pb-4 md:pt-24 px-5 xl:px-20'}>
       <div className='grid w-full gap-10 place-content-stretch grid-cols-2 lg:grid-cols-4'>
         {/*first*/}
         <div className='flex flex-col space-y-4 '>
