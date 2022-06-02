@@ -14,31 +14,39 @@ export const Navigation = (): JSX.Element => {
         <div className={'lg:flex flex-row space-x-10 hidden'}>
           <Link href={'/'}>
             <div className='cursor-pointer'>
-              <h3 className='font-Poppins font-normal text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>Home</h3>
+              <h3 className='font-Poppins font-normal text-xs xl:text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>
+                Home
+              </h3>
             </div>
           </Link>
 
           <Link className='cursor-pointer' href={'/about-us'}>
             <div className='cursor-pointer'>
-              <h3 className='font-Poppins font-normal text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>About Us</h3>
+              <h3 className='font-Poppins font-normal text-xs xl:text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>
+                About Us
+              </h3>
             </div>
           </Link>
 
           <Link className='cursor-pointer' href={'/security'}>
             <div className='cursor-pointer'>
-              <h3 className='font-Poppins font-normal text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>Security</h3>
+              <h3 className='font-Poppins font-normal text-xs xl:text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>
+                Security
+              </h3>
             </div>
           </Link>
 
           <Link className='cursor-pointer' href={'/medical-services'}>
             <div className='cursor-pointer'>
-              <h3 className='font-Poppins font-normal text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>Medical</h3>
+              <h3 className='font-Poppins font-normal text-xs xl:text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>
+                Medical
+              </h3>
             </div>
           </Link>
 
           <Link className='cursor-pointer' href={'/road-side-assistance'}>
             <div className='cursor-pointer'>
-              <h3 className='font-Poppins font-normal text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>
+              <h3 className='font-Poppins font-normal text-xs xl:text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>
                 Road-Side Assistance
               </h3>
             </div>
@@ -46,8 +54,16 @@ export const Navigation = (): JSX.Element => {
 
           <Link className='cursor-pointer' href={'/control-room'}>
             <div className='cursor-pointer'>
-              <h3 className='font-Poppins font-normal text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>
+              <h3 className='font-Poppins font-normal text-xs xl:text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>
                 Control Room
+              </h3>
+            </div>
+          </Link>
+
+          <Link className='cursor-pointer' href={'/contact-us'}>
+            <div className='cursor-pointer'>
+              <h3 className='font-Poppins font-normal text-xs xl:text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch]'>
+                Contact Us
               </h3>
             </div>
           </Link>
@@ -55,7 +71,7 @@ export const Navigation = (): JSX.Element => {
 
         {/*  download*/}
         <div className='flex justify-start items-center space-x-3'>
-          <h3 className='font-Poppins font-normal text-sm text-secondary hover:text-red-500 leading-normal max-w-[60ch] hidden xl:block'>
+          <h3 className='font-Poppins font-normal text-xs xl:text-sm text-secondary leading-normal max-w-[60ch] hidden xl:block'>
             Download
           </h3>
           <Link className='cursor-pointer' href={'/'}>

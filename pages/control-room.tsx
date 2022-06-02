@@ -8,7 +8,7 @@ import { CenterCapabilities } from '../page-components/Control/CenterCapabilitie
 const ControlRoom: NextPage = () => {
   return (
     <section>
-      <MetaHelper title={'ControlRoom Room'} />
+      <MetaHelper title={'Control Room'} />
 
       <HeaderSection />
       <ServicesOffered />

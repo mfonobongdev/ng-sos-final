@@ -25,11 +25,11 @@ export const HeaderSection = (): JSX.Element => {
           </div>
         </div>
       </section>
-      <div className={'absolute inset-0 bg-gray-700/60 -z-10 rounded-md'} />
-      <div className={'absolute inset-0 bg-sosRed/40 -z-10 rounded-md'} />
+      <div className={'absolute inset-0 bg-gray-700/60 -z-10'} />
+      <div className={'absolute inset-0 bg-sosRed/40 -z-10'} />
       <div className={'absolute inset-0 -z-20'}>
         <div className={'relative h-full w-full'}>
-          <Image src={heroImage} alt={'hero'} layout={'fill'} className={'object-cover object-center rounded-md -z-20'} />
+          <Image src={heroImage} alt={'hero'} layout={'fill'} className={'object-cover object-center -z-20'} />
         </div>
       </div>
     </div>
