@@ -5,23 +5,26 @@ export const ContactForm = (): JSX.Element => {
   return (
     <div className='bg-white'>
       <section className='container mx-auto py-10 lg:py-16'>
-        <div className={'grid grid-rows-1 grid-cols-[1fr_3fr] gap-10 place-self-stretch'}>
-          <div className={'grid grid-rows-2 grid-cols-1 gap-10'}>
+        <div
+          className={
+            'grid grid-rows-[max-content_min-content] md:grid-rows-1 grid-cols-1 md:grid-cols-[1fr_3fr] px-2 gap-10 place-self-stretch'
+          }>
+          <div className={'grid grid-rows-[max-content_min-content] grid-cols-1 gap-10 px-8 md:px-0'}>
             <div>
-              <h1 className='font-Poppins font-semibold text-2xl text-primary leading-normal max-w-[20ch]'>Office Address</h1>
+              <h1 className='font-Poppins font-semibold text-lg md:text-2xl text-primary leading-normal max-w-[20ch]'>Office Address</h1>
               <Spacer small />
-              <h3 className='font-Poppins font-normal text-base lg:text-base text-secondary leading-normal max-w-[60ch]'>
+              <h3 className='font-Poppins font-normal text-sm lg:text-base text-secondary leading-normal max-w-[60ch]'>
                 6th Floor, Landmark Tower, 5B Water Corporation Road Victoria Island, Lagos.
               </h3>
             </div>
             <div>
-              <h1 className='font-Poppins font-semibold text-2xl text-primary leading-normal max-w-[20ch]'>Contact Info</h1>
+              <h1 className='font-Poppins font-semibold text-lg md:text-2xl text-primary leading-normal max-w-[20ch]'>Contact Info</h1>
               <Spacer small />
-              <h3 className='font-Poppins font-normal text-base lg:text-base text-secondary leading-normal max-w-[60ch]'>
+              <h3 className='font-Poppins font-normal text-sm lg:text-base text-secondary leading-normal max-w-[60ch]'>
                 Phone: +234 (1) 236 6367
               </h3>
               <Spacer small />
-              <h3 className='font-Poppins font-normal text-base lg:text-base text-secondary leading-normal max-w-[60ch]'>
+              <h3 className='font-Poppins font-normal text-sm lg:text-base text-secondary leading-normal max-w-[60ch]'>
                 Email: sales@m2m-nigeria.com
               </h3>
             </div>
