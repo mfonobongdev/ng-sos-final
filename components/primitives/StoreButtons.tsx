@@ -1,8 +1,6 @@
-import Link from 'next/link'
-
 export const AppStoreButton = (): JSX.Element => {
   return (
-    <Link className='cursor-pointer' href={'/'}>
+    <a className='cursor-pointer' href={'https://apps.apple.com/us/app/nig-sos/id1604921043'} target={'_blank'} rel="noreferrer">
       <div
         className={
           'group cursor-pointer border border-red-700 rounded-md py-2 px-5 flex space-x-3 items-center hover:border-transparent hover:bg-red-600 hover:text-white'
@@ -17,13 +15,13 @@ export const AppStoreButton = (): JSX.Element => {
           </span>
         </div>
       </div>
-    </Link>
+    </a>
   )
 }
 
 export const AppStoreButtonLight = (): JSX.Element => {
   return (
-    <Link className='cursor-pointer' href={'/'}>
+    <a className='cursor-pointer' href={'https://apps.apple.com/us/app/nig-sos/id1604921043'} target={'_blank'} rel="noreferrer">
       <div
         className={
           'group cursor-pointer border border-red-700 rounded-md py-2 px-5 flex space-x-3 items-center hover:border-transparent bg-red-500 text-white hover:bg-white/90 hover:text-red-500'
@@ -38,13 +36,13 @@ export const AppStoreButtonLight = (): JSX.Element => {
           </span>
         </div>
       </div>
-    </Link>
+    </a>
   )
 }
 
 export const PlayStoreButton = (): JSX.Element => {
   return (
-    <Link className='cursor-pointer' href={'/'}>
+    <a className='cursor-pointer' href={'https://play.google.com/store/apps/details?id=za.co.mdits.ngsos'} target={'_blank'} rel="noreferrer">
       <div
         className={
           'group cursor-pointer border border-red-700 rounded-md py-2 px-5 flex space-x-3 items-center hover:border-transparent hover:bg-red-600 hover:text-white'
@@ -59,13 +57,13 @@ export const PlayStoreButton = (): JSX.Element => {
           </span>
         </div>
       </div>
-    </Link>
+    </a>
   )
 }
 
 export const PlayStoreButtonLight = (): JSX.Element => {
   return (
-    <Link className='cursor-pointer' href={'/'}>
+    <a className='cursor-pointer' href={'https://play.google.com/store/apps/details?id=za.co.mdits.ngsos'} target={'_blank'} rel="noreferrer">
       <div
         className={
           'group cursor-pointer border border-red-700 rounded-md py-2 px-5 flex space-x-3 items-center hover:border-transparent bg-red-500 text-white hover:bg-white/90 hover:text-red-500'
@@ -80,6 +78,6 @@ export const PlayStoreButtonLight = (): JSX.Element => {
           </span>
         </div>
       </div>
-    </Link>
+    </a>
   )
 }
