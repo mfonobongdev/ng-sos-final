@@ -17,7 +17,7 @@ export default function FooterComponent() {
             </div>
           </div>
 
-          <a href='/pdf/terms-converted.pdf' target='_blank'>
+          <a href='/pdf/terms_and_conditions.pdf' target='_blank'>
             <div className={'flex space-x-1 items-center cursor-pointer hover:opacity-50'}>
               <h3 className='font-Poppins font-normal text-xs text-secondary leading-normal max-w-[60ch]'>Terms & Conditions</h3>
               <LinkIcon />
