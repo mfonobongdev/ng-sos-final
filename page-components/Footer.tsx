@@ -1,4 +1,4 @@
-import ngSosLogo from '/public/assets/ng-sos-logo.jpeg'
+import ngSosLogo from '/public/assets/ng-sos-logo.png'
 import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
