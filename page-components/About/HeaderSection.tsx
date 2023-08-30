@@ -1,17 +1,17 @@
 import Image from 'next/image'
-import heroImage from '/public/assets/ng-sos-badge.png'
+import heroImage from '/public/assets/ng-sos-logo.png'
 import Spacer from '../../components/primitives/Spacer'
 export const HeaderSection = (): JSX.Element => {
   return (
     <div className='bg-white'>
       <section className='container mx-auto py-6 lg:py-10'>
         <div className='grid grid-rows-[max-content_1fr] grid-cols-1 lg:grid-rows-1 lg:grid-cols-[2fr_1fr] gap-10 md:gap-3'>
-          <div className='hidden lg:block relative w-full h-[600px] lg:h-[680px] rounded-sm order-first md:order-last mx-12 md:mx-0'>
+          <div className='hidden lg:block relative w-full h-[400px] lg:h-[480px] rounded-sm order-first md:order-last mx-12 md:mx-0'>
             <Image
               src={heroImage}
               alt={'hero'}
               layout={'fill'}
-              className={'object-contain object-left lg:object-left-top rounded-sm z-0'}
+              className={'object-contain object-center rounded-sm z-0'}
             />
           </div>
           <div className='md:place-self-stretch px-12'>
