@@ -7,6 +7,7 @@ import { MedicalResponseSection } from '../page-components/Medical/MedicalRespon
 import { MedicalTransportationSection } from '../page-components/Medical/MedicalTransportationSection'
 import { MedicalAdviceSection } from '../page-components/Medical/MedicalAdviceSection'
 import { AmbulanceServiceSection } from '../page-components/Medical/AmbulanceServiceSection'
+import CoverageMedicalSection from '../page-components/Medical/CoverageMedicalSection'
 const MedicalServices: NextPage = () => {
   return (
     <section>
@@ -17,6 +18,7 @@ const MedicalServices: NextPage = () => {
       <MedicalTransportationSection />
       <MedicalAdviceSection />
       <AmbulanceServiceSection />
+      <CoverageMedicalSection/>
       <DownloadSection />
       <FooterComponent />
     </section>

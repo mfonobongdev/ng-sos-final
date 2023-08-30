@@ -8,6 +8,7 @@ import { MechanicalSection } from '../page-components/Road/MechanicalSection'
 import { TyreSection } from '../page-components/Road/TyreSection'
 import { KeysSection } from '../page-components/Road/KeysSection'
 import { JumpSection } from '../page-components/Road/JumpSection'
+import CoverageRoadSection from '../page-components/Road/CoverageRoadSection'
 const RoadSideAssistance: NextPage = () => {
   return (
     <section>
@@ -19,6 +20,7 @@ const RoadSideAssistance: NextPage = () => {
       <TyreSection />
       <KeysSection />
       <JumpSection />
+      <CoverageRoadSection/>
       <DownloadSection />
       <FooterComponent />
     </section>

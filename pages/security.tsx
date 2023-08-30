@@ -5,6 +5,7 @@ import FooterComponent from '../page-components/Footer'
 import { HeaderSection } from '../page-components/Security/HeaderSection'
 import { ArmedResponseSection } from '../page-components/Security/ArmedResponseSection'
 import { EscortsSection } from '../page-components/Security/EscortsSection'
+import CoverageSecuritySection from '../page-components/Security/CoverageSecuritySection'
 const Security: NextPage = () => {
   return (
     <section>
@@ -13,6 +14,7 @@ const Security: NextPage = () => {
       <HeaderSection />
       <ArmedResponseSection />
       <EscortsSection />
+      <CoverageSecuritySection/>
       <DownloadSection />
       <FooterComponent />
     </section>
